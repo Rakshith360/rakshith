@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshith Pippari</title>
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    img-src 'self' https://cdn.pixabay.com;
+    style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline';
+    font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+    script-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    connect-src 'self';
+  ">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="robots" content="noindex, nofollow"> 
+    <meta http-equiv="Clear-Site-Data" content="cookies, storage, executionContexts">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <canvas id="binaryRain"></canvas>
+    <header>
+        <nav>
+            <div class="logo">Rakshith Pippari</div>
+            <ul>
+                <li><a href="#hero" rel="noopener noreferrer">Home</a></li>
+                <li><a href="#about" rel="noopener noreferrer">About</a></li>
+                <li><a href="#skills" rel="noopener noreferrer">Skills</a></li>
+                <li><a href="#projects" rel="noopener noreferrer">Projects</a></li>
+                <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i> <i class="fas fa-moon" style="display: none;"></i> </button>
+             <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+     <div class="mobile-nav" id="mobile-nav">
+         <ul>
+             <li><a href="#hero" rel="noopener noreferrer">Home</a></li>
+             <li><a href="#about" rel="noopener noreferrer">About</a></li>
+             <li><a href="#skills" rel="noopener noreferrer">Skills</a></li>
+             <li><a href="#projects" rel="noopener noreferrer">Projects</a></li>
+             <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
+         </ul>
+     </div>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                   <h1 id="type-name"></h1>
+                  <h2 id="type-role"></h2>
+                  <p id="type-desc"></p>
+              
+                <a href="#projects" class="cta-button">View My Work</a>
+                <div class="social-links">
+                    <a href="https://whatsapp.com/channel/0029VbAHPtsFHWq1AmeqiH1j"  rel="noopener noreferrer" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/Rakshith360" target="_blank"  rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/RAK1412Rak?t=AbMhzCTD3izDBB0ZeCJqWw&s=08"  rel="noopener noreferrer" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter "></i></a>
+                    </div>
+
+            </div>
+            </section>
+            <div class="computer-shell">
+              <div class="screen">
+                <p id="typed-text"></p>
+              </div>
+            </div>
+    
+          
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <div class="tilt-container">
+                <img src="images/Rakshith.jpg" height="30" class="profile-pic fancy-hover">
+            </div>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>Hello! I'm Rakshith  a dedicated Frontend Developer with a passion for building beautiful and functional websites and applications. My journey into the world of coding started with curiosity and a love for design. I’ve always been fascinated by how a few lines of code can bring a static design to life, creating something users can interact with and enjoy. Over the years, that fascination turned into a full-blown passion and career path.
+
+                        With [3 years] of hands-on experience, I've had the opportunity to work on a variety of projects — from sleek marketing websites to complex web apps. I specialize in crafting clean, responsive UIs using modern technologies like React, Tailwind CSS, and Next.js, with a strong focus on performance and user experience.
+                        
+                        What I love most about frontend development is the perfect blend of creativity and logic — it's where art meets engineering. Seeing an idea go from wireframe to a polished, live experience is what keeps me inspired every day.
+                        
+                        When I’m not coding, you’ll probably find me [coding, gaming, reading tech blogs, sketching, playing guitar,  exploring new cafes]. I'm also a big believer in continuous learning, always exploring the latest trends and best practices in web development.
+                        
+                        Looking forward to building something awesome — let’s connect!.</p>
+                    <p>I specialize in [  like React, Vue, Angular, plain JS, CSS frameworks] and I'm always eager to learn new things and take on challenging projects.</p>
+                    <a href="file/Rakshith_Premium_Matrix_Resume.pptx"  rel="noopener noreferrer" target="_blank" class="cta-button secondary">Download Resume</a>
+                </div>
+                </div>
+        </section>
+        <section class="battle-card-section">
+          <div class="battle-card">
+            <!-- FRONT -->
+            <div class="card-face card-front">
+              <img src="images/Rakshith.jpg"Rakshith" width="50" class="avatar" />
+              <h2>Rakshith Pippari</h2>
+              <p>Frontend Developer</p>
+            </div>
+        
+            <!-- BACK -->
+            <div class="card-face card-back">
+              <h3>Battle Stats</h3>
+              <ul>
+                <li>🧱 HTML: 95</li>
+                <li>🎨 CSS: 85</li>
+                <li>⚙️ JavaScript: 80</li>
+                <li>⚛️ React: 70</li>
+                <li>🌀 Tailwind: 60</li>
+              </ul>
+              <p class="quote">"Rakshith used Flexbox... it's super effective!"</p>
+            </div>
+          </div>
+          <!-- Card 2: Frontend Tools -->
+  <div class="battle-card">
+      <!-- FRONT -->
+      <div class="card-face card-front">
+        <img src="images/Rakshith.jpg"Rakshith" width="50" class="avatar" />
+        <h2>Frontend Tools</h2>
+        <p>My Daily Arsenal</p>
+      </div>
+
+      <!-- BACK -->
+      <div class="card-face card-back">
+        <h3>Tool Power</h3>
+        <ul>
+          <li>💻 VS Code: 95</li>
+          <li>📁 Git & GitHub: 85</li>
+          <li>🎨 Figma: 70</li>
+          <li>⚙️ Chrome DevTools: 80</li>
+          <li>🧪 CodePen / Sandbox: 60</li>
+        </ul>
+        <p class="quote">"VS Code activated — code mode engaged!"</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Card 3: Frameworks & Libraries -->
+<div class="battle-card">
+  <!-- FRONT -->
+  <div class="card-face card-front">
+    <img src="images/Rakshith.jpg"Rakshith" width="50" class="avatar" />
+    <h2>FW & More</h2>
+    <p>Power-Ups I Use</p>
+  </div>
+
+  <!-- BACK -->
+  <div class="card-face card-back">
+    <h3>Framework Stats</h3>
+    <ul>
+      <li>🟩 Vue.js: 60</li>
+      <li>🟥 Angular: 40</li>
+      <li>💄 Sass: 75</li>
+      <li>📦 Bootstrap: 80</li>
+      <li>🧠 jQuery: 55</li>
+    </ul>
+    <p class="quote">"Bootstrap deployed — layout stabilized!"</p>
+  </div>
+</div>
+</section>     
+        <section id="skills" class="content-section bg-alt">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript (ES6+)</div>
+                <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                <div class="skill-item"><i class="fab fa-vuejs"></i> Vue.js</div> <div class="skill-item"><i class="fab fa-angular"></i> Angular</div> <div class="skill-item"><i class="fab fa-sass"></i> SASS/SCSS</div> <div class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</div> <div class="skill-item"><i class="fas fa-terminal"></i> Git & GitHub</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> Responsive Design</div>
+                <div class="skill-item"><i class="fas fa-universal-access"></i> Accessibility</div>
+                <div class="skill-item"><i class="fas fa-tools"></i> Dev Tools</div>
+                </div>
+        </section>
+   <br><br>
+   
+
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="images/boxiee.jpg" alt="Project 1 Screenshot">
+                    <div class="project-info">
+                        <h3>Boxiee video sharing platform</h3>
+                        <p> Boxiee is an innovative, next-generation video-sharing platform designed to redefine digital content creation and consumption. With cutting-edge technology and a user-friendly interface, Boxiee empowers creators to share high-quality videos while ensuring seamless streaming for viewers.</p>
+                        <div class="project-links">
+                            <a href="https://rakshith360.github.io/boxiee/"  rel="noopener noreferrer" target="_blank" class="cta-button small">Live Demo</a>
+                            <a href="https://github.com/Rakshith360"  rel="noopener noreferrer" target="_blank" class="cta-button small secondary">View Code</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="images/boxiee.jpg" alt="Project 2 Screenshot">
+                    <div class="project-info">
+                        <h3>Boxiee AI</h3>
+                        <p></p>Boxiee AI is a powerful artificial intelligence system designed around the concept of pre-stored knowledge. Unlike generative AIs that rely heavily on live internet access or cloud-based retrieval systems, Boxiee AI operates from a carefully curated, internally stored knowledge base. This design allows Boxiee to function with speed, precision, and reliability — even in offline or restricted environments.
+                        <div class="project-links">
+                            <a href="https://rakshith360.github.io/boxiee/page9.html"  rel="noopener noreferrer" target="_blank" class="cta-button small">Live Demo</a>
+                            <a href="https://github.com/Rakshith360"  rel="noopener noreferrer" target="_blank" class="cta-button small secondary">View Code</a>
+                        </div>
+                    </div>
+                </article>
+                </div>
+        </section>
+
+     
+      
+        <section class="live-coding-section">
+          <h2 class="section-title">💻 Live Coding Preview</h2>
+          <div class="code-editor">
+            <pre><code id="liveCode"></code></pre>
+          </div>
+        </section>
+        
+          <br><br><br><br><br><br><br><br><br><br><br> 
+          <section class="testimonial-section">
+            <h2>What Clients Say</h2>
+            <div class="testimonial-grid">
+              
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Working with you was a breeze! The site is stunning and fully responsive. Would definitely work with you again."</p>
+                <div class="name">Sarah T.</div>
+                <div class="role">Startup Founder</div>
+              </div>
+        
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Understood the brief instantly and delivered beyond expectations. Super clean code and beautiful UI."</p>
+                <div class="name">David K.</div>
+                <div class="role">Agency Owner</div>
+              </div>
+        
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"One of the most reliable frontend devs I've worked with. Great communication and even better results."</p>
+                <div class="name">Lena M.</div>
+                <div class="role">Project Manager</div>
+              </div>
+        
+            </div>
+          </section>
+
+        <section id="contact" class="content-section bg-alt">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to collaborate? Feel free to reach out!</p>
+            <form id="contact-form" action="[Your Form Handling Endpoint - e.g., Formspree, Netlify Forms]" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <p>Or contact me via email: <a href="mailto:[boxiee322@gmail.com] rel="noopener noreferrer">[boxiee322@gmail.com]</a></p>
+        </section>
+    </main>
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">What is your return policy?</button>
+            <div class="accordion-body">
+              <p>We offer a 30-day return policy from the date of purchase. No questions asked!</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Do you offer international shipping?</button>
+            <div class="accordion-body">
+              <p>Yes! We ship to over 50 countries worldwide. Shipping rates apply.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">How can I track my order?</button>
+            <div class="accordion-body">
+              <p>Once your order ships, we'll send you a tracking number via email.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> [Rakshith Pippari]. All rights reserved.</p>
+        <div class="social-links">
+             <a href="https://whatsapp.com/channel/0029VbAHPtsFHWq1AmeqiH1j"  rel="noopener noreferrer" target="_blank" aria-label="LinkedIn"> <i class="fa-brands fa-whatsapp"></i></a>
+             <a href="https://github.com/Rakshith360"  rel="noopener noreferrer" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+             <a href="https://x.com/RAK1412Rak?t=AbMhzCTD3izDBB0ZeCJqWw&s=08"  rel="noopener noreferrer" target="_blank" aria-label="Twitter"><i class=" fa-brands fa-x-twitter"></i></a>
+         </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
