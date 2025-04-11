@@ -1078,4 +1078,7 @@ footer .social-links a:hover {
   .testimonial-card:hover::before {
     left: 125%;
   }
- 
+ .box {
+  text-align:center;
+  
+ }
