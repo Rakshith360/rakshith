@@ -770,7 +770,7 @@ footer .social-links a:hover {
    
   .live-coding-section {
      height: 400px;
-    color: #00ff00;
+    color: #2622fa;
     padding: 60px 20px;
     text-align: center;
     font-family: 'Courier New', monospace;
@@ -783,13 +783,13 @@ footer .social-links a:hover {
   
   .code-editor {
      
-    border: 2px solid #00ff00;
+    border: 2px solid #1b38ef;
     padding: 20px;
     max-width: 700px;
     margin: 0 auto;
     text-align: left;
     border-radius: 12px;
-    box-shadow: 0 0 25px rgba(0, 255, 0, 0.2);
+    box-shadow: 0 0 25px rgba(18, 120, 230, 0.2);
     font-size: 1rem;
     white-space: pre-wrap;
     word-break: break-word;
@@ -1080,6 +1080,5 @@ footer .social-links a:hover {
   }
  .box {
   text-align:center;
-  width:100%;
-  
  }
+ 
