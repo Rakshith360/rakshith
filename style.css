@@ -782,6 +782,7 @@ footer .social-links a:hover {
   }
   
   .code-editor {
+    height:420px;
      
     border: 2px solid #1b38ef;
     padding: 20px;
