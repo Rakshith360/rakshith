@@ -748,7 +748,7 @@ footer .social-links a:hover {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 3px solid #00ff00;
+    border: 3px solid rgba(0, 225, 0, 0.2);
     margin-bottom: 15px;
   }
   
